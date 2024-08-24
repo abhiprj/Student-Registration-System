@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc; /* Light Grayish Blue Background */
+    color: #333;
+}
+
+header {
+    background-color: #34495e; /* Dark Blue-Gray */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    margin-bottom: 30px;
+}
+
+#form-section, #display-section {
+    background-color: #ffffff; /* White Background */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    width: 48%;
+}
+
+h2 {
+    margin-top: 0;
+    border-bottom: 3px solid #34495e; /* Dark Blue-Gray */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark Slate */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2c3e50; /* Dark Slate */
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #34495e; /* Dark Blue-Gray Focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 73, 94, 0.3);
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1abc9c; /* Medium Turquoise */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #16a085; /* Darker Turquoise */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #2980b9; /* Strong Blue */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1; /* Light Silver */
+}
+
+tr:hover {
+    background-color: #bdc3c7; /* Medium Silver */
+}
+
+#student-table {
+    max-height: 300px;
+    overflow-y: auto;
+    display: block;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:nth-child(1) {
+    background-color: #e74c3c; /* Strong Red */
+    color: white;
+}
+
+button:nth-child(2) {
+    background-color: #f39c12; /* Vibrant Orange */
+    color: white;
+}
